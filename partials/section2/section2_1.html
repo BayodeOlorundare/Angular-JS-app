@@ -1,0 +1,52 @@
+<div class="main">
+	<div class="row">
+		<div class="faq-page col-lg-11 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+			<div class="row">
+				<div class="grid-left col-lg-2 col-lg-offset-0 hidden-md hidden-sm hidden-xs" #="side-nav" ng-controller="repeatCtrl">
+					<div class="side-Navbar">
+						<a class="navbar-brand" href="#/section2">Section 2 Topics</a><br><br><br>
+						<ul class="side-Navlist">
+							<li ng-repeat="topic in section2" class="{{ topic.class }}"><a href="{{ topic.url }}">{{ topic.name }}</a>
+								<br>
+								<ul>
+									<li ng-repeat="category in topic.categories">
+										<a href="{{ category.url }}">{{ category.name }}</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="panel-group mobile-panel hidden-lg col-md-12 col-sm-12 col-xs-12" id="accordion1" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" ng-click="box1=!box1">
+							<h4 class="panel-title"><b>Show/Hide Topics</b></h4>
+						</div>
+						<div class="panel-collapse collapse in" data-slide-toggle="box1" data-slide-toggle-duration="100">
+							<div class="panel-body">
+								<ul class="side-Navlist">
+									<li ng-repeat="topic in section2" class="{{ topic.class }}"><a href="{{ topic.url }}">{{ topic.name }}</a>
+										<br>
+										<ul>
+											<li ng-repeat="category in topic.categories">
+												<a href="{{ category.url }}">{{ category.name }}</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<div class="grid-right col-lg-7 col-lg-offset-3 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+					<div class="faq-copy-container">
+						<h1>Section 2.1 Topic</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quaerat repudiandae consequuntur facere aperiam, praesentium recusandae provident similique veritatis aliquam ea sint consectetur, ipsa est porro voluptas magni asperiores atque, et error sit quos, odio hic corrupti. Obcaecati nihil dolore quasi deleniti maxime maiores facere quod porro praesentium asperiores voluptatum ratione voluptatibus repellat fugiat exercitationem, aspernatur, necessitatibus, est voluptate, nostrum possimus nisi sequi. Voluptatem aspernatur repellendus eum similique est ducimus dolorem architecto sint, incidunt, libero ipsa doloremque vel, consequuntur. Sint repellendus, ut? Ex repellendus nemo tempore, ad qui sapiente fugit a, commodi quisquam vel dignissimos voluptas, animi quaerat excepturi nisi.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quaerat repudiandae consequuntur facere aperiam, praesentium recusandae provident similique veritatis aliquam ea sint consectetur, ipsa est porro voluptas magni asperiores atque, et error sit quos, odio hic corrupti. Obcaecati nihil dolore quasi deleniti maxime maiores facere quod porro praesentium asperiores voluptatum ratione voluptatibus repellat fugiat exercitationem, aspernatur, necessitatibus, est voluptate, nostrum possimus nisi sequi. Voluptatem aspernatur repellendus eum similique est ducimus dolorem architecto sint, incidunt, libero ipsa doloremque vel, consequuntur. Sint repellendus, ut? Ex repellendus nemo tempore, ad qui sapiente fugit a, commodi quisquam vel dignissimos voluptas, animi quaerat excepturi nisi.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quaerat repudiandae consequuntur facere aperiam, praesentium recusandae provident similique veritatis aliquam ea sint consectetur, ipsa est porro voluptas magni asperiores atque, et error sit quos, odio hic corrupti. Obcaecati nihil dolore quasi deleniti maxime maiores facere quod porro praesentium asperiores voluptatum ratione voluptatibus repellat fugiat exercitationem, aspernatur, necessitatibus, est voluptate, nostrum possimus nisi sequi. Voluptatem aspernatur repellendus eum similique est ducimus dolorem architecto sint, incidunt, libero ipsa doloremque vel, consequuntur. Sint repellendus, ut? Ex repellendus nemo tempore, ad qui sapiente fugit a, commodi quisquam vel dignissimos voluptas, animi quaerat excepturi nisi.</p>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
