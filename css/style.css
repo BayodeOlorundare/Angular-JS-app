@@ -10,7 +10,6 @@ nav.navbar.navbar-default {height: 75px;background: #fff;padding: 1%}
 .side-Navlist li {padding-bottom: 11px;}
 .hidden_topic {display: none;}
 .mobile-panel {position: sticky;top: 74px;left: 0;padding-bottom: 5%;z-index: 99;}
-.eiq_Logo {width: auto;max-width: inherit;}
 /*--------------------------------------------------------------
 Buttons
 --------------------------------------------------------------*/
@@ -36,8 +35,6 @@ img {display: block;max-width: 100%;height: auto;}
 .grid-left {width: 260px;position:fixed;top: 100px;bottom: 0;overflow: auto;padding: 20px 0;background-color: #fff;display: block;}
 .side-Navbar {position: relative;padding-bottom: 204px;display: block !important;}
 .grid-right {position: relative;padding: 0;}
-.newsletter_Schedule {text-align: left;line-height: 8px;}
-.newsletter_Schedule > tbody > tr > td > ol > li {list-style: none;padding: 5px;}
 /*--------------------------------------------------------------
 Home screen
 --------------------------------------------------------------*/
@@ -51,7 +48,6 @@ Footer
 .footer {clear: both;margin: 0 auto;background-color: #202020;padding: 4%;color: #fff;font-size: 21px;bottom: -23px;width: 100%;position: relative;}
 .bottom-nav > ul {margin-top: 0;margin-bottom: 10px;list-style: none;display: inline-flex;padding: 0 0 0 6px;}
 .bottom-nav > ul > li {padding-right: 25px;}
-.eiq-logo > a > img {width: 200px;}
 /*--------------------------------------------------------------
 Responsive
 --------------------------------------------------------------*/
@@ -76,16 +72,11 @@ Responsive
 	.dropdown-menu>li>a {padding: 3px 10px;}
 }
 @media (max-width: 400px){
-	.eiq_Logo {width: 150px;}
 	.mobile-menu {margin-left: 70%;}
-}
-@media (max-width: 360px){
-.newsletter_Schedule > table > tbody > tr > td > ol > li > .btn, #\31 > table > tbody > tr > td > ol > li > button {font-size: 10px;max-width: 190px;}
 }
 @media (max-width: 302px){
 	a.terms, a.privacy {font-size: 15px;}
 }
 @media (max-width: 275px){
-	.eiq_Logo {width: 150px;}
 	.mobile-menu {margin-left: 70%;}
 }
