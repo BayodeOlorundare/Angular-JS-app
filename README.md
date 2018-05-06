@@ -9,3 +9,5 @@ JQuery<br>
 Node JS<br>
 CSS<br>
 Boostrap<br>
+
+View the app here:  https://bayodeolorundare.github.io/Angular-JS-app/
